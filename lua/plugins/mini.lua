@@ -7,5 +7,6 @@ return {
     require('mini.move').setup()
     require('mini.pairs').setup()
     require('mini.surround').setup{n_lines = 500}
+    require('mini.icons').setup{}
   end,
 }
